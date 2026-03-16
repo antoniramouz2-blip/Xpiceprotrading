@@ -14,7 +14,7 @@ import {
   AlertCircle
 } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
-import { db } from '../firebase';
+import { db } from './firebase';
 import { collection, query, onSnapshot, doc, updateDoc, getDoc, orderBy } from 'firebase/firestore';
 
 interface AdminPanelProps {
