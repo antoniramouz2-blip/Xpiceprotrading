@@ -36,7 +36,7 @@ import { QRCodeSVG } from 'qrcode.react';
 import { auth, db, signInWithGoogle, logOut, signUpWithEmail, signInWithEmail } from './firebase';
 import { onAuthStateChanged } from 'firebase/auth';
 import { doc, onSnapshot, collection, addDoc, serverTimestamp, updateDoc, getDoc } from 'firebase/firestore';
-import AdminPanel from './components/AdminPanel';
+import AdminPanel from './Components/AdminPanel';
 
 // Mock data for the chart
 const generateChartData = (basePrice: number) => {
