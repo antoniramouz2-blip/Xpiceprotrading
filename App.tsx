@@ -212,7 +212,7 @@ export default function App() {
             
             // Auto-open admin panel if URL has ?admin=true and user is admin
             const params = new URLSearchParams(window.location.search);
-            const isAdmin = data?.role === 'admin' || u.email === 'ant79552@gmail.com
+            const isAdmin = data?.role === 'admin' || u.email === ant79552@gmail.com
             if (params.get('admin') === 'true' && isAdmin) {
               setIsAdminPanelOpen(true);
             }
